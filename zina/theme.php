@@ -2209,10 +2209,14 @@ function ztheme_zinamp_embed() {
 			'zinamp_playlist=encodeURIComponent(href);'.
 			'if (window.zwin&&!zwin.closed){'.
 				'zwin.document.zinamp.addPlaylist(encodeURIComponent(href));'.
-			'}else{'.
+			'} else {'.
 				'var winsize=(zina_cookie("zinamp_window"))?","+zina_cookie("zinamp_window"):"";'.
 				'zwin=window.open("","zinamp","width='.$zc['zinamp_width'].',height='.$zc['zinamp_height'].',status=no,toolbar=no,scrollbars=no"+winsize);'.
-				'zwin.location="'.$zc['zinamp_url'].'";'.
+				'if (zwin.location.href.indexOf("about") == 0) {'.
+					'zwin.location="'.$zc['zinamp_url'].'";'.
+				'} else {'.
+					'zwin.document.zinamp.addPlaylist(encodeURIComponent(href));'.
+				'}'.
 			'}'.
 		'}';
 
