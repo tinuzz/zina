@@ -1,0 +1,45 @@
+<?php
+# Zina Romanian translation by Dangrosariu
+# original code page: "ISO-8859-1";
+$language = 'Romanian';
+
+$lang['ro'] = array(
+	'Artists' => 'Artisti',
+	'Albums' => 'Albume',
+	'Songs' => 'Cantece',
+	'Song' => 'Cantec',
+	'See Also' => 'Albume in legatura',
+	'Add To' => 'Adauga la',
+	'Delete' => 'Sterge',
+	'Download' => 'Descarca',
+	'Home' => 'Acasa',
+	'More' => 'Mai mult',
+	'Play' => 'Canta',
+	'Play Low Fidelity' => 'Canta cu fidelitate redusa',
+	'Playlists' => 'Lista',
+	'Playlist' => 'Lista',
+	'Login' => 'Autentificare',
+	'Search Results' => 'Rezultatele cautarii',
+	'Not Found' => 'Nu am gasit',
+	'View/Edit Playlist' => 'Vezi/Editeaza Lista',
+	'Session Playlist' => 'Sesiune Lista',
+	'Sorry, there are no playlists.' => 'Scuze, nu am gasit nici o lista.',
+	'New Playlist' => 'Lista Noua',
+	'Playlist Name' => 'Nume Lista',
+	'Submit' => 'Trimite',
+	'Random' => 'Aleatoriu',
+	'Username' => 'Nume Utilizator',
+	'Password' => 'Parola',
+	'Error' => 'Eroare',
+	'Custom' => 'Uzual',
+	'Update' => 'Upgradare',
+	'Rename' => 'Redenumeste',
+	'All' => 'Tot',
+	'Selected' => 'Selectat',
+	'None' => 'Nimic',
+	'Artist/Title' => 'Artist/Titlu',
+	'Cannot rename playlist.' => 'Nu pot redenumi lista.',
+	'Check' => 'Verific',
+	'Login Incorrect.' => 'Autentificare incorecta.',
+);
+?>

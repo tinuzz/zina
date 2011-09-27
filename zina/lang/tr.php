@@ -1,0 +1,45 @@
+<?php
+# Zina Turkish translation by Mehmet Karaca
+# original code page: "ISO-8859-1";
+$language = 'Turkish';
+
+$lang['tr'] = array(
+	'Artists' => 'Sanatçýlar',
+	'Albums' => 'Albümler',
+	'Songs' => 'Þarkýlar',
+	'Song' => 'Þarký',
+	'See Also' => 'Ýlgili Albümler',
+	'Add To' => 'Buraya Ekle',
+	'Delete' => 'Sil',
+	'Download' => 'Ýndir',
+	'Home' => 'Ana Sayfa',
+	'More' => 'Daha fazla...',
+	'Play' => 'Dinle',
+	'Play Low Fidelity' => 'Düþük Kalitede Çal',
+	'Playlists' => 'Þarký Listeleri',
+	'Playlist' => 'Þarký Listesi',
+	'Login' => 'Giriþ',
+	'Search Results' => 'Arama Sonuçlarý',
+	'Not Found' => 'Bulunamadý',
+	'View/Edit Playlist' => 'Þarký Listesi Görüntüle/Düzenle',
+	'Session Playlist' => 'Oturum Þarký Listesi',
+	'Sorry, there are no playlists.' => 'Üzgünüm, Þarký Listesi yok.',
+	'New Playlist' => 'Yeni Þarký Listesi',
+	'Playlist Name' => 'Þarký Listesi Adý',
+	'Submit' => 'Gönder',
+	'Random' => 'Rastgele',
+	'Username' => 'Kullanýcý Adý',
+	'Password' => 'Þifre',
+	'Error' => 'Hara',
+	'Custom' => 'Kiþisel',
+	'Update' => 'Güncelle',
+	'Rename' => 'Yeniden adlandýr',
+	'All' => 'Tümü',
+	'Selected' => 'Ýþaretlileri',
+	'None' => 'Hiçbiri',
+	'Artist/Title' => 'Sanatçý / Baþlýk',
+	'Cannot rename playlist.' => 'Þarký Listesi yeniden adlandýrýlamadý.',
+	'Check' => 'Ýþaretle',
+	'Login Incorrect.' => 'Giriþ Hatalý.',
+);
+?>

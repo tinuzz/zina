@@ -1,0 +1,45 @@
+<?php
+#Basque translation by: Caleb Queern
+# original code page: "ISO-8859-1"; #?
+$language = 'Basque';
+
+$lang['eu'] = array(
+	'Artists' => 'artistak',
+	'Albums' => 'albumak',
+	'Songs' => 'kantuak',
+	'Song' => 'kantua',
+	'See Also' => 'antzeko albumak',
+	'Add To' => 'gehitu',
+	'Delete' => 'ezabatu',
+	'Download' => 'jaitsi',
+	'Home' => 'hasiera',
+	'More' => 'gehiago',
+	'Play' => 'jo',
+	'Play Low Fidelity' => 'jo behe fideltasunan',
+	'Playlists' => 'kantu zerrendak',
+	'Playlist' => 'kantu zerrenda',
+	'Login' => 'saioa hasi',
+	'Search Results' => 'bilaketako emaiztak',
+	'Not Found' => 'ez aurkituta',
+	'View/Edit Playlist' => 'ikusi / aldatu kantu zererenda',
+	'Session Playlist' => 'saoiako kantu zerrenda',
+	'Sorry, there are no playlists.' => 'sentitzen dugu, ez dago kantu zerrendarik',
+	'New Playlist' => 'kantu zerrenda berria',
+	'Playlist Name' => 'kantu zerrenda izena',
+	'Submit' => 'sartu',
+	'Random' => 'oharkabez',
+	'Username' => 'erabiltzaile izena',
+	'Password' => 'pasahitza',
+	'Error' => 'akatsa',
+	'Custom' => 'pertsonalizatua',
+	'Update' => 'berritu',
+	'Rename' => 'izen berria eman',
+	'All' => 'denak',
+	'Selected' => 'aukeratutak',
+	'None' => 'ezer ez',
+	'Artist/Title' => 'artista / tituloa',
+	'Cannot rename playlist.' => 'kantu zerrenda izena ezin du izen berria izan',
+	'Check' => 'aukeratu',
+	'Login Incorrect.' => 'datu okerrak.  mesedez, berriro saiatu',
+);
+?>

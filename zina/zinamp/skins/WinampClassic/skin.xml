@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<skin version="0" xmlns="http://xsml.org/ns/0/">
+	<name>Winamp Classic</name> 
+	<width>275</width> 
+	<height>416</height> 
+	<style>style.css</style>
+	<images>images</images>
+	<objects>
+		<object label="background" image="images/background.png" />
+
+		<object label="playButton" x="39" y="88" width="22" height="17" alpha="0" hoverMessage="Play" />
+		<object label="playButtonPressed" image="images/playPressed.png" x="39" y="88" width="22" height="17" />
+
+		<object label="pauseButton" x="62" y="88" width="22" height="17" alpha="0" hoverMessage="Pause" />
+		<object label="pauseButtonPressed" image="images/pausePressed.png" x="62" y="88" width="22" height="17" />
+
+		<object label="stopButton" x="84" y="88" width="22" height="17" alpha="0" hoverMessage="Stop" />
+		<object label="stopButtonPressed" image="images/stopPressed.png" x="84" y="88" width="22" height="17" />
+		
+		<object label="prevButton" x="15" y="88" width="22" height="17" alpha="0" hoverMessage="Previous" />
+		<object label="prevButtonPressed" image="images/previousPressed.png" x="15" y="88" width="22" height="17" />
+	
+		<object label="nextButton" x="108" y="88" width="22" height="17" alpha="0" hoverMessage="Forward" />  
+		<object label="nextButtonPressed" image="images/nextPressed.png" x="108" y="88" width="22" height="17" />  
+		
+		<object label="shuffleButton"	x="165" y="90" width="45" height="13" alpha="1" hoverMessage="Shuffle" />
+		<object label="shuffleButtonOn" image="images/shuffleOn.png" x="165" y="90" width="45" height="13" hoverMessage="Shuffle" />
+		<object label="shuffleButtonPressed" image="images/shufflePressed.png" x="165" y="90" width="45" height="13" />
+
+		<object label="repeatButton" x="211" y="90" width="27" height="13" alpha="0" hoverMessage="Repeat" />
+		<object label="repeatButtonOn" image="images/repeatOn.png" x="211" y="90" width="27" height="13" hoverMessage="Repeat" />
+		<object label="repeatButtonPressed" image="images/repeatPressed.png" x="211" y="90" width="27" height="13" />
+		
+		<object label="playlistButton" x="239" y="90" width="27" height="13" hoverMessage="Playlist Toggle" alpha="1" /> 
+		<object label="playlistButtonOn" image="images/playlistOn.png" x="239" y="90" width="27" height="13" hoverMessage="Playlist Toggle" /> 
+		<object label="playlistButtonPressed" image="images/playlistPressed.png" x="239" y="90" width="27" height="13" /> 
+
+		<object label="trackDisplay" x="109" y="21" width="157" height="12" size="10" font="Verdana, Arial" color="00E200" /> 
+		<object label="timeDisplay" x="38" y="22" width="63" height="15" size="18" align="right" font="Courier New, sans-serif" color="00F800" hoverMessage="Time Display (Click to toggle elapsed/remaining time)"/> 
+
+		<object label="bitrate" text="=1" x="110" y="38" width="19" height="10" size="9" align="right" font="Geneva, sans-serif" color="00E200" /> 
+		<object label="frequency" text="1" x="155" y="38" width="13" height="10" size="9" align="right" font="Geneva, sans-serif" color="00E200" /> 
+
+		<object label="mono" image="images/mono.png" x="214" y="41" width="25" height="12" /> 
+		<object label="stereo" image="images/stereo.png" x="239" y="41" width="28" height="13" /> 
+
+		<object label="loveButton" image="images/heart.png" x="246" y="56" hoverMessage="Love this track" /> 
+		<object label="loveButtonOn" image="images/heart_selected.png" x="246" y="56" /> 
+
+		<object label="panSlider" x="178" y="61" width="36" height="5" color="CCCCCC" alpha="1" /> 
+		<object label="panHandle" image="images/sliderHandle.png" x="189" y="58" width="14" height="11" hoverMessage="Balance"/> 
+
+		<object label="volumeSlider" x="108" y="61" width="64" height="5" color="CCCCCC" alpha="1" /> 
+		<object label="volumeHandle" image="images/sliderHandle.png" x="121" y="58" width="14" height="11" hoverMessage="Volume"/> 
+
+		<object label="loadBar" x="18" y="73" image="images/loadbar.png" color="302F4B" width="246" height="7" /> 
+
+		<object label="timeSlider" x="18" y="73" width="246" height="7" color="CCCCCC" alpha="1" />  
+		<object label="timeHandle" image="images/timeHandle.png" x="16" y="72" width="29" height="10" />  
+
+		<object label="songInfoBackground" x="0" y="116" width="275" height="122" image="images/song_info.png" />
+		<object label="imageDisplay" x="11" y="127" width="100" height="100" />
+		<object label="songInfo" text="1" x="119" y="126" width="150" height="100" font="Verdana, sans-serif" size="12" color="00FF00" />
+
+		<object label="playlistBackground" image="images/playlist.png" x="0" y="238" width="275" height="178" />
+		<object label="playlistDisplay" x="11" y="247" width="245" height="160" selectedColor="ffffff" selectedBgColor="0000C6" font="Verdana" color="00FF00" size="10" /> 
+
+		<object label="playlistSlider" x="261" y="248" width="6" height="148" color="CCCCCC" alpha="1" />  
+		<object label="playlistHandle" image="images/playlistHandle.png" x="260" y="248" width="8" height="18" />  
+		<object label="scrollUpButton" x="260" y="395" width="8" height="6" alpha="1"/> 
+		<object label="scrollDownButton" x="260" y="401" width="8" height="6" alpha="1"/> 
+</objects>
+</skin>

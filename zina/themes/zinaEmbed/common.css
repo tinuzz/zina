@@ -1,0 +1,413 @@
+#zina form { display:inline; }
+
+#zina img,
+#zina a img {
+  border: none;
+}
+
+#zina ul, 
+#zina li {
+	background: none;	
+	list-style-type: none;
+	list-style-image: none;
+	padding-left:0;
+	margin-left: 0;
+	line-height:1.8em;
+}
+
+#zina ul.zina-list,
+#zina li.zina-list {
+	background: none;
+	list-style-type: circle;
+	padding-left:.75em;
+	margin-left: .75em;
+}
+
+#zina li {
+	margin-left: 5px;
+}
+
+#zina input,
+#zina select {
+	font-size:.75em;
+}
+
+#zina .section {
+	float:left;
+	margin-bottom: 15px;
+	width:100%;
+}
+
+#zina .section h3 {
+	border-bottom:1px solid #ccc;
+	margin:0 auto;
+	padding-bottom: 3px;
+}
+
+#zina div.stats {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+#zina div.stats h3 {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#zina div.stats-left {
+	float:left;
+}
+#zina div.stats-right {
+	float:right;
+}
+#zina div.section table {
+	float:left;
+}
+
+div.zina-header {
+	width: 100%;
+	float:left;
+	border-bottom:1px solid #ccc;
+	margin-top:15px;
+}
+
+div.zina-title-details {
+	float:left;
+	margin-top: 6px;
+	margin-left:10px;
+}
+
+div.zina-header-left,
+div.zina-subheader-left {
+	float:left;
+}
+
+div.zina-header-right,
+div.zina-subheader-right {
+	float:right;
+}
+
+div.zina-header { }
+
+div.zina-header-right {
+	padding-top:4px;
+	vertical-align:bottom;
+}
+.zina-header h1 {
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+div.zina-subheader {
+	width:100%;
+	float: left;
+	padding-top:2px;
+}
+
+#zina .search-form {
+	display:inline;
+	margin-right:10px;
+}
+#zina .search-form div{
+	display:inline;
+}
+
+#zina .search-header {
+	background: #D5EBF9;
+}
+
+div.zina-content {
+	float:left;
+	margin-top:20px;
+	width:100%;
+}
+
+#zina div.directory_list {
+	float:right;
+	margin-left:10px;
+}
+
+#zina div.directory-image,
+div.zina-directory-image {
+	float: left;	
+	margin-right:10px;
+	line-height:1em;
+}
+
+#zina img.genre-image,
+#zina .directory-image img,
+.zina-directory-image img,
+#zina .directory-image-full img {
+	border: 8px solid #EDf5FA;
+}
+
+#zina .directory-image-dir-text,
+#zina .directory-image-full-text {
+	text-align:center;
+	font-weight: bold;
+	font-size: .8em;
+}
+#zina .directory-image-full-text {
+	font-size: 1.2em;
+}
+
+#zina p.dir-opts {
+	margin-top:0;
+	padding-top:0
+}
+
+#zina .row0 { background-color:#EDf5FA; }
+#zina .row1 { background-color:#FFFFFF; }
+
+#zina .song_info0,
+#zina .song_info1 { 
+	font-size:.8em;
+}
+#zina .song_blurb0, 
+#zina .song_blurb1 { 
+	font-size: .9em;
+}
+
+#zina .cfg-cat { 
+	border-bottom: 2px solid #50ACE6;
+	margin-top: 10px;
+	background-color:#EDf5FA;
+	padding-top: 3px;
+	padding-left: 2px;
+	height: 24px;
+	width: 100%;
+}
+
+#zina .cfg-left {
+	float: left;
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#zina .cfg-right {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#zina div.category_pages {
+	text-align: center;
+}
+
+#zina .category_cols { 
+	border-right: 1px dotted #999; 
+}
+#zina table.category {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#zina .category td {
+	padding-left:5px;
+	padding-right:5px;
+	line-height:1.5em;
+}
+
+#zina .small,
+#zina .image-browser {
+	font-size:.8em;
+}
+
+#zina div.image-browser {
+	padding:4px;
+	text-align: center;
+}
+
+#zina .small a {
+}
+#zina a:hover {
+	
+}
+
+
+#zina .category_pages,
+#zina .category_pages a,
+#zina .category_pages a:visited {
+	font-size: 14px;
+}
+#zina div.footer {
+	clear: left;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+#zina img.icon {
+	vertical-align: text-bottom;
+	margin: 0px 2px;
+}
+#zina .stars-song {
+	margin-top:2px;
+}
+#zina .stars img.icon{
+	margin:0;
+}
+
+#zina .messages {
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#zina .error {
+	font-size: 1.5em;
+	color: #a30000;
+  	background-color: #FFCCCC;
+	border: 1px solid #DD7777;
+}
+#zina .warn {
+	font-size: 1.3em;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+#zina .status {
+	font-size: 1.1em;
+	color: #33a333;
+	border:1px solid #c7f2c8;
+}
+
+#zina div.directory_list div.playlist-form-elements,
+#zina .amg {
+	margin-top:1.5em;
+}
+#zina table {
+  margin: 0;
+  width: 100%;
+}
+
+#zina td, 
+#zina th {
+	padding: .3em .5em;
+}
+
+#zina .image-list-category h3 {
+	text-align:center;
+}
+
+#zina div.genre-page {
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+}
+#zina div.genre-page h3 {
+}
+#zina img.genre-image {
+	margin-right: 10px;
+	float:left;
+}
+#zina div.genre-select {
+	float:right;
+}
+
+#zina .image-list-category img.genre-image {
+	float:none;
+}
+
+/*  EMBED SPECIFIC */
+.wordpress {
+	font-size: 1.2em;
+}
+
+.wordpress h1 {
+	color: black;
+	font-size: 1.6em;
+}
+
+.xoops .zina-title-details {
+	margin-top:4px;
+}
+
+/* JOOMLA */
+.XXXcomponentheading {
+	margin:0;
+	padding:0;
+	float: left;
+	padding-top:2px;
+	line-height:1em;
+}
+/* DRUPAL */
+.joomla table,
+.drupal table {
+  border-collapse: collapse;
+  margin:0;
+}
+.drupal tbody {
+	border-top: 0;
+}
+
+.drupal h3 {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin:0; 
+	padding:0;
+}
+
+table.drupal,
+table.joomla {
+	border-top: 1px solid #999;
+	margin-bottom: 10px;
+}
+
+/*
+ genre hierarchy override
+*/
+div.indentation,
+#genres td,
+#genres input {
+	font-size:8pt;
+}
+
+.zina-stats-block p,
+.zina-live-search p {
+	margin:0;
+	padding:0;
+}
+
+.zina-live-search img {
+	float:left;
+	width:40px;
+	height:40px;
+	padding-right:5px;
+}
+
+.zina-stats-block img {
+	float:left;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+div.zina-stats-block,
+#zina .search-results img {
+	float:left;
+}
+
+#zina .nowrap { white-space: nowrap; }
+#zina .fullwidth {width:100%;}
+#zina .halfwidth {width:50%;}
+#zina .quarterwidth {width:25%;}
+
+h1.zina-cat-letter {
+/*	color: #027AC6; */
+	border-bottom:1px solid;
+	margin:0;
+	padding:0;
+	line-height:1em;
+	width:100%;
+}
+
+a.zina-cat-letter {
+	margin:0;
+	padding:0;
+}
+
+#zina .center {
+	text-align:center;
+}

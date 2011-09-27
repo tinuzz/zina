@@ -1,0 +1,45 @@
+<?php
+# Zina Bulgarian translation by Kalin Borisov
+# original code page: "windows-1251";
+$language = 'Bulgarian';
+
+$lang['bg'] = array(
+	'Artists' => 'Артисти',
+	'Albums' => 'Албуми',
+	'Songs' => 'Песни',
+	'Song' => 'Песен',
+	'See Also' => 'Свързани Албуми',
+	'Add To' => 'Прибави към',
+	'Delete' => 'Изтрий',
+	'Download' => 'Изтегли',
+	'Home' => 'Назад',
+	'More' => 'Повече',
+	'Play' => 'Пусни',
+	'Play Low Fidelity' => 'Пусни с малка прецизност',
+	'Playlists' => 'Плейлиста',
+	'Playlist' => 'Плейлист',
+	'Login' => 'Влизане',
+	'Search Results' => 'Търсене резултати',
+	'Not Found' => 'Не е открит',
+	'View/Edit Playlist' => 'Виж/Промени Плейлиста',
+	'Session Playlist' => 'Плейлист сесия',
+	'Sorry, there are no playlists.' => 'Съжаляваме, там няма плейлиста.',
+	'New Playlist' => 'Нов плейлист',
+	'Playlist Name' => 'Плейлист Име',
+	'Submit' => 'Потвърди',
+	'Random' => 'Различно',
+	'Username' => 'Потребител',
+	'Password' => 'Парола',
+	'Error' => 'Грешка',
+	'Custom' => 'Обичайно',
+	'Update' => 'Преработи',
+	'Rename' => 'Промени',
+	'All' => 'Всички',
+	'Selected' => 'Избрано',
+	'None' => 'Няма',
+	'Artist/Title' => 'Артист/Заглавие',
+	'Cannot rename playlist.' => 'Не можете да преименувате плейлист.',
+	'Check' => 'Проверка',
+	'Login Incorrect.' => 'Погрешно влизане.',
+);
+?>

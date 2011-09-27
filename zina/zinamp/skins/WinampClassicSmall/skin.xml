@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<skin version="0" xmlns="http://xsml.org/ns/0/">
+	<width>275</width> 
+	<height>116</height> 
+	<name>Winamp Classic - Small</name> 
+	<objects>
+		<object label="background" image="../WinampClassic/images/background.png" />
+
+		<object label="playButton" x="39" y="88" width="22" height="17" alpha="0" hoverMessage="Play" />
+		<object label="playButtonPressed" image="../WinampClassic/images/playPressed.png" x="39" y="88" width="22" height="17" />
+
+		<object label="pauseButton" x="62" y="88" width="22" height="17" alpha="0" hoverMessage="Pause" />
+		<object label="pauseButtonPressed" image="../WinampClassic/images/pausePressed.png" x="62" y="88" width="22" height="17" />
+
+		<object label="stopButton" x="84" y="88" width="22" height="17" alpha="0" hoverMessage="Stop" />
+		<object label="stopButtonPressed" image="../WinampClassic/images/stopPressed.png" x="84" y="88" width="22" height="17" />
+		
+		<object label="prevButton" x="15" y="88" width="22" height="17" alpha="0" hoverMessage="Previous" />
+		<object label="prevButtonPressed" image="../WinampClassic/images/previousPressed.png" x="15" y="88" width="22" height="17" />
+	
+		<object label="nextButton" x="108" y="88" width="22" height="17" alpha="0" hoverMessage="Forward" />  
+		<object label="nextButtonPressed" image="../WinampClassic/images/nextPressed.png" x="108" y="88" width="22" height="17" />  
+		
+		<object label="shuffleButton"	x="165" y="90" width="45" height="13" alpha="1" hoverMessage="Shuffle" />
+		<object label="shuffleButtonOn" image="../WinampClassic/images/shuffleOn.png" x="165" y="90" width="45" height="13" hoverMessage="Shuffle" />
+		<object label="shuffleButtonPressed" image="../WinampClassic/images/shufflePressed.png" x="165" y="90" width="45" height="13" />
+
+		<object label="repeatButton" x="211" y="90" width="27" height="13" alpha="0" hoverMessage="Repeat" />
+		<object label="repeatButtonOn" image="../WinampClassic/images/repeatOn.png" x="211" y="90" width="27" height="13" hoverMessage="Repeat" />
+		<object label="repeatButtonPressed" image="../WinampClassic/images/repeatPressed.png" x="211" y="90" width="27" height="13" />
+		
+		<object label="playlistButton" x="239" y="90" width="27" height="13" hoverMessage="Playlist Toggle" alpha="1" /> 
+		<object label="playlistButtonOn" image="../WinampClassic/images/playlistOn.png" x="239" y="90" width="27" height="13" hoverMessage="Playlist Toggle" /> 
+		<object label="playlistButtonPressed" image="../WinampClassic/images/playlistPressed.png" x="239" y="90" width="27" height="13" /> 
+
+		<object label="trackDisplay" x="109" y="21" width="157" height="12" size="10" font="Verdana, Arial" color="00E200" /> 
+		<object label="timeDisplay" x="38" y="22" width="63" height="15" size="18" align="right" font="Courier New, sans-serif" color="00F800" hoverMessage="Time Display (Click to toggle elapsed/remaining time)"/> 
+
+		<object label="bitrate" text="=1" x="110" y="38" width="19" height="10" size="9" align="right" font="Geneva, sans-serif" color="00E200" /> 
+		<object label="frequency" text="1" x="155" y="38" width="13" height="10" size="9" align="right" font="Geneva, sans-serif" color="00E200" /> 
+
+		<object label="mono" image="../WinampClassic/images/mono.png" x="214" y="41" width="25" height="12" /> 
+		<object label="stereo" image="../WinampClassic/images/stereo.png" x="239" y="41" width="28" height="13" /> 
+
+		<object label="loveButton" image="../WinampClassic/images/heart.png" x="246" y="56" hoverMessage="Love this track" /> 
+		<object label="loveButtonOn" image="../WinampClassic/images/heart_selected.png" x="246" y="56" /> 
+
+		<object label="panSlider" x="178" y="61" width="36" height="5" color="CCCCCC" alpha="1" /> 
+		<object label="panHandle" image="../WinampClassic/images/sliderHandle.png" x="189" y="58" width="14" height="11" hoverMessage="Balance"/> 
+
+		<object label="volumeSlider" x="108" y="61" width="64" height="5" color="CCCCCC" alpha="1" /> 
+		<object label="volumeHandle" image="../WinampClassic/images/sliderHandle.png" x="121" y="58" width="14" height="11" hoverMessage="Volume"/> 
+
+		<object label="loadBar" x="18" y="73" image="../WinampClassic/images/loadbar.png" color="302F4B" width="246" height="7" /> 
+
+		<object label="timeSlider" x="18" y="73" width="246" height="7" color="CCCCCC" alpha="1" />  
+		<object label="timeHandle" image="../WinampClassic/images/timeHandle.png" x="16" y="72" width="29" height="10" />  
+</objects>
+</skin>

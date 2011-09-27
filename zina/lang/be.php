@@ -1,0 +1,45 @@
+<?php
+# Russian translation by: M.Comfi
+# original code page: "UTF-8";
+$language = 'Belorussian';
+
+$lang['ru'] = array(
+	'Artists' => 'Выканаўцы',
+	'Albums' => 'Альбомы',
+	'Songs' => 'Песні',
+	'Song' => 'Песня',
+	'See Also' => 'Якія спасылаюцца альбомы',
+	'Add To' => 'Дадаць да',
+	'Delete' => 'Выдаліць',
+	'Download' => 'Запампаваць',
+	'Home' => 'У пачатак',
+	'More' => 'Больш',
+	'Play' => 'Гуляць',
+	'Play Low Fidelity' => 'Гуляць з нізкай якасцю',
+	'Playlists' => 'Плэйлісты',
+	'Playlist' => 'Плэйліст',
+	'Login' => 'Увайсці',
+	'Search Results' => 'Вынікі пошуку',
+	'Not Found' => 'Не знойдзена',
+	'View/Edit Playlist' => 'Глядзець, рэдагаваць плэйліст',
+	'Session Playlist' => 'Плэйліст гэтай сесіі',
+	'Sorry, there are no playlists.' => 'Выбачыце, няма плэйлістоў.',
+	'New Playlist' => 'Новы плэйліст',
+	'Playlist Name' => 'Назва плэйліста',
+	'Submit' => 'Адправіць',
+	'Random' => 'У разнабой',
+	'Username' => 'Імя карыстача',
+	'Password' => 'Пароль',
+	'Error' => 'Памылка',
+	'Custom' => 'Свой плэйліст',
+	'Update' => 'Абнавіць',
+	'Rename' => 'Переназвать',
+	'All' => 'Усё',
+	'Selected' => 'Абраныя',
+	'None' => 'Не',
+	'Artist/Title' => 'Выканавец/Назва',
+	'Cannot rename playlist.' => 'Не магу пераназваць плэйліст.',
+	'Check' => 'Праверыць',
+	'Login Incorrect.' => 'Няправільнае імя ці пароль.',
+);
+?>

@@ -1,0 +1,40 @@
+/*
+** Progressbar styles
+*/
+.progress {
+  font-weight: bold;
+}
+.progress .bar {
+  background: #fff url(progress.gif);
+  border: 1px solid #00375a;
+  height: 1.5em;
+  margin: 0 0.2em;
+}
+.progress .filled {
+  background: #0072b9;
+  height: 1em;
+  border-bottom: 0.5em solid #004a73;
+  width: 0%;
+}
+.progress .percentage {
+  float: right; /* LTR */
+}
+.progress-disabled {
+  float: left; /* LTR */
+}
+.ahah-progress {
+  float: left; /* LTR */
+}
+.ahah-progress .throbber {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  background: transparent url(throbber.gif) no-repeat 0px -18px;
+  float: left; /* LTR */
+}
+tr .ahah-progress .throbber {
+  margin: 0 2px;
+}
+.ahah-progress-bar {
+  width: 16em;
+}

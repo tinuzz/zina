@@ -1,0 +1,45 @@
+<?php
+# Zina Swedish translation by Mike Karlson
+# original code page: "ISO-8859-1";
+$language = 'Swedish';
+
+$lang['se'] = array(
+	'Artists' => 'Artister',
+	'Albums' => 'Album',
+	'Songs' => 'Sånger',
+	'Song' => 'Sång',
+	'See Also' => 'Relaterade album',
+	'Add To' => 'Lägg till i',
+	'Delete' => 'Radera',
+	'Download' => 'Hämta',
+	'Home' => 'Hem',
+	'More' => 'Mera',
+	'Play' => 'Spela',
+	'Play Low Fidelity' => 'Spela låg Fidelity',
+	'Playlists' => 'Spellistor',
+	'Playlist' => 'Spellista',
+	'Login' => 'Logga in',
+	'Search Results' => 'Sökresultat',
+	'Not Found' => 'Kunde inte hittas',
+	'View/Edit Playlist' => 'Visa/Editera spellista',
+	'Session Playlist' => 'Session spellista',
+	'Sorry, there are no playlists.' => 'Ledsen, det finns inga spellistor.',
+	'New Playlist' => 'Ny spellista',
+	'Playlist Name' => 'spellistenamn',
+	'Submit' => 'Skicka',
+	'Random' => 'Slumpmässigt',
+	'Username' => 'Användarnamn',
+	'Password' => 'Lösenord',
+	'Error' => 'Fel',
+	'Custom' => 'Special',
+	'Update' => 'Uppdatera',
+	'Rename' => 'Döp om',
+	'All' => 'Alla',
+	'Selected' => 'Markerade',
+	'None' => 'Ingen',
+	'Artist/Title' => 'Artist/Titel',
+	'Cannot rename playlist.' => 'Kan inte döpa om spellistan.',
+	'Check' => 'Markera',
+	'Login Incorrect.' => 'Fel användarnamn/lösenord.',
+);
+?>

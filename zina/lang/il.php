@@ -1,0 +1,45 @@
+<?php
+# Hebrew Zina translation by motty@capoeira-ra.co.il
+# original code page: "windows-1255";
+$language = 'Hebrew';
+
+$lang['il'] = array(
+	'Artists' => 'אמנים',
+	'Albums' => 'אלבומים',
+	'Songs' => 'שירים',
+	'Song' => 'שיר',
+	'See Also' => 'אלבומים קשורים',
+	'Add To' => 'הוסף אל',
+	'Delete' => 'מחק',
+	'Download' => 'הורד',
+	'Home' => 'ראשי',
+	'More' => 'מידע נוסף',
+	'Play' => 'נגן',
+	'Play Low Fidelity' => 'נגן איכות נמוכה',
+	'Playlists' => 'רשימות שמע',
+	'Playlist' => 'רשימת שמע',
+	'Login' => 'התחבר',
+	'Search Results' => 'תוצאות החיפוש',
+	'Not Found' => 'לא נמצא',
+	'View/Edit Playlist' => 'ראה/ערוך רשימה',
+	'Session Playlist' => 'איזור רשימה',
+	'Sorry, there are no playlists.' => 'מצטערים, אין כעת רשימות שמע.',
+	'New Playlist' => 'רשימה חדשה',
+	'Playlist Name' => 'שם רשימה',
+	'Submit' => 'שלח',
+	'Random' => 'אקראי',
+	'Username' => 'שם משתמש',
+	'Password' => 'סיסמה',
+	'Error' => 'תקלה',
+	'Custom' => 'סגנון',
+	'Update' => 'עדכן',
+	'Rename' => 'שנה שם',
+	'All' => 'הכל',
+	'Selected' => 'נבחר',
+	'None' => 'אין',
+	'Artist/Title' => 'שם/כותרת',
+	'Cannot rename playlist.' => 'אינו יכול לשנות שם הרשימה.',
+	'Check' => 'בדוק',
+	'Login Incorrect.' => 'התחברות שגוייה.',
+);
+?>

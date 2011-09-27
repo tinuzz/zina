@@ -1,0 +1,137 @@
+body {
+	margin:auto;
+	width: 850px;
+	padding:0;
+	background: #000000;
+	font: 12px/170% Arial, Helvetica, sans-serif;
+	color: #999;
+}
+
+input {
+  font: 12px/100% Arial, Helvetica, sans-serif;
+}
+
+textarea, select {
+  font: 12px/160% Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 160%;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+h6 {
+  font-size: 110%;
+}
+
+ul, quote, code, fieldset {
+  margin: .5em 0;
+}
+
+p {
+  margin: 0.6em 0 1.2em;
+  padding: 0;
+}
+
+a:link, a:visited {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CCC;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #999;
+}
+
+ul {
+  margin: 0.5em 0 1em;
+  padding: 0;
+}
+
+ol {
+  margin: 0.75em 0 1.25em;
+  padding: 0;
+}
+
+ol li, ul li {
+  margin: 0.4em 0 0.4em .5em; /* LTR */
+}
+
+ol li, ul li {
+  margin: 0.15em 0 0.15em .5em; /* LTR */
+}
+
+ul li {
+  padding: 0 0 .2em 1.5em;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+ol li {
+  padding: 0 0 .3em;
+  margin-left: 2em; /* LTR */
+}
+
+fieldset ul.clear-block li {
+  margin: 0;
+  padding: 0;
+  background-image: none;
+}
+
+dl {
+  margin: 0.5em 0 1em 1.5em; /* LTR */
+}
+
+dl dt {
+}
+
+dl dd {
+  margin: 0 0 .5em 1.5em; /* LTR */
+}
+
+img, a img {
+  border: none;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+
+td, th {
+  padding: .3em .5em;
+}
+thead th {
+  text-align:left;
+}

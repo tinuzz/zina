@@ -1,0 +1,419 @@
+/*
+** Markup free clearing
+** Details: http://www.positioniseverything.net/easyclearing.html
+*/
+.clear-block:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear-block {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clear-block {
+  height: 1%;
+}
+.clear-block {
+  display: block;
+}
+/* End hide from IE-mac */
+
+#zina form { display:inline; }
+
+#zina h3 {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin:0;
+	padding:0;
+}
+
+#zina input,
+#zina select,
+#zina .small ,
+#zina .image-browser {
+	font-size: .8em;
+	color: #666;
+}
+
+#zina .image-browser a,
+#zina .image-browser a:link,
+#zina .image-browser a:hover,
+#zina .image-browser a:visited {
+	color: #aaa;
+}
+
+/* DRUPAL OVERRIDE */
+#zina table {
+  border-collapse: collapse;
+  margin:0;
+}
+#zina tbody {
+	border-top: 0;
+}
+/* END OVER */
+
+#zina ul,
+#zina li {
+	background: none;
+	list-style-type: none;
+	list-style-image: none;
+	padding-left:0;
+	margin-left: 0;
+}
+
+#zina ul.zina-list,
+#zina li.zina-list {
+	background: none;
+	list-style-type: circle;
+	padding-left:.75em;
+	margin-left: .75em;
+}
+
+
+#zina .cfg-cat {
+	border-bottom: 2px solid #50ACE6;
+	margin-top: 10px;
+	background-color:#EDf5FA;
+	padding-top: 3px;
+	padding-left: 2px;
+	height: 24px;
+	width: 100%;
+}
+
+#zina .cfg-left {
+	float: left;
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#zina .cfg-right {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#zina table.category {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#zina div.category_pages {
+	text-align: center;
+}
+
+#zina .category td {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.5em;
+}
+#zina .category_cols {
+	border-right: 1px dotted #999;
+}
+
+#zina .messages {
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#zina .error {
+	font-size: 1.5em;
+	color: #a30000;
+  	background-color: #FFCCCC;
+	border: 1px solid #DD7777;
+}
+#zina .warn {
+	font-size: 1.3em;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+#zina .status {
+	font-size: 1.1em;
+	color: #33a333;
+	border:1px solid #c7f2c8;
+}
+
+#zina img.icon {
+	vertical-align: text-bottom;
+	margin: 0px 2px;
+}
+
+#zina .stars img.icon{
+	margin:0;
+}
+
+#zina .stars-song {
+	margin-top:3px;
+}
+
+.ac_odd,
+#zina .row0 { 
+	background-color:#EDf5FA; 
+}
+#zina .row1 { background-color:#FFFFFF; }
+#zina .song0 {}
+#zina .song1 {}
+#zina .song_info0 { font-size:.8em;}
+#zina .song_info1 { font-size:.8em;}
+#zina .song_blurb0,
+#zina .song_blurb1 {
+	font-size: .9em;
+}
+
+#zina div.directory-image {
+	margin-right: 10px;
+	float:left;
+}
+
+#zina div.directory-image,
+#zina div.directory-image-full {
+	line-height:1em;
+}
+
+#zina img.genre-image,
+#zina .directory-image img,
+#zina .directory-image-full img {
+	border: 8px solid #EDf5FA;
+}
+
+#zina .directory-image-dir-text,
+#zina .directory-image-full-text {
+	text-align:center;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+#zina .directory-image-full-text {
+	font-size: 1.2em;
+}
+
+#zina div.image-browser {
+	padding:4px;
+	text-align: center;
+	color: #aaa;
+}
+
+#zina div.directory_list {
+	float:right;
+	margin-left:10px;
+}
+
+#zina .directory_list ul input {
+	vertical-align:bottom;
+}
+
+#zina div.section {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#zina div.section H3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+
+#zina div.stats {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ccc;
+
+}
+#zina div.stats h3 {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#zina div.section table {
+	float:left;
+}
+#zina div.stats-left {
+	float:left;
+}
+#zina div.stats-right {
+	float:right;
+}
+
+#zina H1 {
+	margin:0;
+	padding: 0;
+}
+
+#zina span.year {
+	font-weight: normal;
+	font-size: .8em;
+}
+
+#zina span.genre {
+	margin-right: 10px;
+}
+
+#zina div.footer {
+	clear: left;
+	text-align: center;
+}
+#zina .subheader {
+	margin-bottom:20px;
+}
+
+#zina .subheader-left {
+	float:left;
+}
+#zina .subheader-right {
+	float:right;
+}
+
+#zina p.dir-opts {
+	margin-top:8px;
+	padding-top:0
+}
+
+/* not used */
+#zina .image-inner {
+	position: relative;
+	right: 22px;
+	bottom: 10px;
+}
+
+#zina .extras {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#zina .song_title {
+	 color: #027AC6;
+}
+
+#zina .amg {
+	margin-top:1.5em;
+}
+
+#zina .search-form {
+	display:inline;
+}
+
+#zina .header {
+	width: 100%;
+	float:left;
+	border-bottom: 1px solid #ccc;
+}
+
+#zina .breadcrumb {
+	width: 100%;
+	float:left;
+}
+
+#zina .content-embed {
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+
+#zina .header-left,
+#zina .breadcrumb-left {
+	float: left;
+}
+
+#zina .header-right,
+#zina .breadcrumb-right {
+	float: right;
+}
+#zina td,
+#zina th {
+  padding: .3em .5em;
+}
+
+#zina .title-details {
+	float:left;
+	margin-left: 10px;
+}
+
+#zina h1 {
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#zina div.genre-page {
+	margin-bottom:10px;
+}
+#zina div.genre-page h3 {
+}
+#zina img.genre-image {
+	margin-right: 10px;
+	float:left;
+}
+#zina div.genre-select {
+	float:right;
+}
+.ac_over {
+	background-color: #1659AC;
+	color: #EEE;
+}
+
+#zina .image-list-category img.genre-image {
+	float:none;
+}
+
+.zina-live-search p,
+.zina-stats-block p {
+	margin:0;
+	padding:0;
+}
+
+.zina-stats-block img {
+	float:left;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+div.zina-stats-block {
+	float:left;
+}
+
+.zina-live-search img {
+	float:left;
+	width:40px;
+	height:40px;
+	padding-right:5px;
+}
+
+#zina .search-results img {
+	float:left;
+}
+
+#zina .nowrap { white-space: nowrap; }
+#zina .fullwidth {width:100%;}
+#zina .halfwidth {width:50%;}
+#zina .quarterwidth {width:25%;}
+
+#zina .search-header {
+	 background: #D5EBF9;
+}
+
+h1.zina-cat-letter {
+	color: #027AC6;
+	border-bottom:1px solid;
+	margin:0;
+	padding:0;
+	line-height:1em;
+	width:100%;
+}
+
+a.zina-cat-letter {
+	margin:0;
+	padding:0;
+}
+
+#zina .center {
+	text-align:center;
+}

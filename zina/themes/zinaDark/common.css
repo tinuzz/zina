@@ -1,0 +1,422 @@
+/*
+** Markup free clearing
+** Details: http://www.positioniseverything.net/easyclearing.html
+*/
+.clear-block:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear-block {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clear-block {
+  height: 1%;
+}
+.clear-block {
+  display: block;
+}
+/* End hide from IE-mac */
+
+
+#zina form { display:inline; }
+
+#zina h3 {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin:0; 
+	padding:0;
+	color: #ccc;
+}
+
+
+#zina input,
+#zina select,
+#zina .small ,
+.zina_image_browser {
+	font-size: .8em;
+	color: #666;
+}
+
+#zina span.genre_form {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.zina_image_browser a,
+.zina_image_browser a:link,
+.zina_image_browser a:hover,
+.zina_image_browser a:visited {
+	color: #aaa;
+}
+
+/* DRUPAL OVERRIDE */
+#zina table {
+  border-collapse: collapse;
+  margin:0;
+}
+#zina tbody {
+	border-top: 0;
+}
+/* END OVER */
+
+#zina ul, 
+#zina li {
+	background: none;	
+	list-style-type: none;
+	list-style-image: none;
+	padding-left:0;
+	margin-left: 0;
+}
+
+#zina ul.zina-list,
+#zina li.zina-list {
+	background: none;
+	list-style-type: circle;
+	padding-left:.75em;
+	margin-left: .75em;
+}
+
+/* TODO: HARDCODED IN SCRIPT =( 
+ * XXX
+ * plus rename!
+ */
+#zina .cfg-cat { 
+	border-bottom: 2px solid #50ACE6;
+	margin-top: 10px;
+	background-color:#ccc;
+	padding-top: 3px;
+	padding-left: 2px;
+	height: 24px;
+	width: 100%;
+	color:#000;
+}
+
+#zina .cfg-left {
+	float: left;
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#zina .cfg-right {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	color: #000;
+}
+
+/* IN THEME */
+
+#zina table.category {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#zina div.category_pages {
+	text-align: center;
+}
+#zina div.section {
+	width: 100%;
+}
+
+#zina .category td {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.5em;
+}
+#zina .category_cols { 
+	border-right: 1px dotted #999; 
+}
+
+#zina .messages {
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#zina .error {
+	font-size: 1.5em;
+	color: #a30000;
+  	background-color: #FFCCCC;
+	border: 1px solid #DD7777;
+}
+#zina .warn {
+	font-size: 1.3em;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+#zina .status {
+	font-size: 1.1em;
+	color: #33a333;
+	border:1px solid #c7f2c8;
+}
+
+#zina img.icon {
+	vertical-align: text-bottom;
+	margin: 0px 2px;
+}
+
+#zina .stars img.icon{
+	margin:0;
+}
+
+#zina .stars-song {
+	margin-top:3px;
+}
+
+.ac_odd, 
+#zina .row0 { 
+	background-color:#333; 
+}
+.ac_even,
+#zina .row1 { 
+	background-color:#000; 
+}
+#zina .song_info0 { font-size:.8em;}
+#zina .song_info1 { font-size:.8em;}
+#zina .song_blurb0,
+#zina .song_blurb1 {
+	font-size: .9em; 
+}
+#zina div.directory-image {
+	float: left;	
+	margin-right: 10px;
+}
+#zina div.directory-image,
+#zina div.directory-image-full {
+	line-height:1em;
+}
+
+#zina img.genre-image,
+#zina .directory-image img,
+#zina .directory-image-full img {
+	border: 8px solid #333;
+}
+#zina div.image-browser {
+	padding:4px;
+	text-align: center;
+
+	background-color: #333;
+	border: 1px solid #999;
+	color: #aaa;
+}
+#zina .title_details {
+	margin-right:10px;
+}
+
+/* */
+#zina div.directory_list {
+	float:right;
+	margin-left:10px;
+}
+
+#zina div.section {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#zina div.section H3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+
+#zina table.navigation {
+	border-top: 1px solid #999;
+	margin-bottom: 10px;
+}
+
+#zina H1 {
+	margin:0; 
+	padding: 0;
+}
+
+#zina span.year {
+	font-weight: normal;
+	font-size: .8em;
+}
+#zina span.genre {
+	margin-right: 10px;
+}
+
+
+#zina div.footer {
+	clear: left;
+	text-align: center;
+}
+
+div#header {
+	margin-top: 15px;
+	padding-bottom:5px;
+	border-bottom:1px solid #666;
+}
+
+#header h1, 
+#header h1 a:link, 
+#header h1 a:visited {
+  color: #fff;
+  font-weight: normal;
+  text-shadow: #1659ac 0px 1px 3px;
+  float:left;
+  margin-top: 14px;
+}
+
+.header-right {
+	margin-top: 15px;
+	float:right;
+	width: 210px;
+}
+
+#zina .breadcrumb {
+	margin-bottom: 10px;
+}
+
+#zina .breadcrumb-left {
+	float:left;
+}
+#zina .breadcrumb-right {
+	float:right;
+	margin-top: 2px;
+}
+
+#zina .breadcrumb-right img{
+	margin-left: 5px;
+}
+
+#zina .subheader {
+	margin-bottom:20px;
+}
+
+#zina .subheader-left {
+	float:left;
+}
+#zina .subheader-right {
+	float:right;
+}
+
+p.dir-opts {
+	margin-top:8px;
+	padding-top:0
+}
+
+/* not used */
+#zina .image-inner {
+	position: relative;
+	right: 22px;
+	bottom: 10px;
+}
+#zina .extras {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#zina div.directory_list div.playlist-form-elements {
+	margin-top:1.5em;
+}
+
+
+#zina .song_title {
+	 color: #027AC6;
+}
+
+#zina .amg {
+	margin-top:1.5em;
+}
+
+div.search-form {
+	float:right;
+}
+
+
+#zina .search-form {
+	display:inline;
+	margin-right:10px;
+}
+
+#zina div.stats {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ccc;
+
+}
+#zina div.stats h3 {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#zina div.section table {
+	float:left;
+}
+#zina div.stats-left {
+	float:left;
+}
+#zina div.stats-right {
+	float:right;
+}
+#zina div.genre-page {
+	margin-bottom:10px;
+}
+#zina div.genre-page h3 {
+}
+#zina img.genre-image {
+	margin-right: 10px;
+	float:left;
+}
+
+#zina .image-list-category img.genre-image {
+	float:none;
+}
+#zina div.genre-select {
+	float:right;
+}
+
+.ac_over {
+	background-color: #666;
+	color: white;
+}
+.zina-live-search p {
+	margin:0;
+	padding:0;
+}
+
+.zina-live-search img {
+	float:left;
+	width:40px;
+	height:40px;
+	padding-right:5px;
+}
+
+#zina .search-results img {
+	float:left;
+}
+
+#zina .nowrap { white-space: nowrap; }
+#zina .fullwidth {width:100%;}
+#zina .halfwidth {width:50%;}
+#zina .quarterwidth {width:25%;}
+
+h1.zina-cat-letter {
+	color: #999;
+	border-bottom:1px solid;
+	margin:0;
+	padding:0;
+	line-height:1em;
+	width:100%;
+}
+
+a.zina-cat-letter {
+	margin:0;
+	padding:0;
+}
+
+#zina .center {
+	text-align:center;
+}

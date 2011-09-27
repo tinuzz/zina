@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0" xmlns="http://xsml.org/ns/0/">
+<width>254</width>
+<height>36</height>
+<name>Silver - Small</name>
+<objects>
+	<object label="background" image="../Silver/images/background.png" />
+
+	<object label="prevButton" shape="circle" x="5" y="4" width="20" height="20" alpha="1" />
+	<object label="playpauseButton" shape="circle" x="29" y="4" width="20" height="20" alpha="1" />
+	<object label="playpauseButtonOn" image="../Silver/images/playpauseButton.png" x="29" y="4" width="20" height="20" />
+	<object label="nextButton" shape="circle" x="53" y="4" width="20" height="20" alpha="1"/>
+
+	<object label="trackDisplay" x="78" y="3" width="159" height="14" size="12" color="333333" font="Arial" />
+	<object label="timeDisplay" x="238" y="16" size="10" align="right" color="333333" font="Arial" />
+
+	<object label="loadBar" image="../Silver/images/loadBar.png" x="82" y="22" width="120" height="6" />
+
+	<object label="timeBar" image="../Silver/images/timeBar.png" x="82" y="21" width="120" height="7"  />
+	<object label="timeBarHolder" x="82" y="21" width="122" height="7"  alpha="1" />
+
+	<object label="volumeSlider" x="15" y="27" width="44" height="3" />
+	<object label="volumeHandle" image="../Silver/images/volumeHandle.png" x="15" y="24" width="10" height="10" />
+
+	<object label="playlistButton" x="242" y="6" width="9" height="9" alpha="1" />
+	<object label="playlistButtonOn" image="../Silver/images/playlistOn.png" x="242" y="6" width="9" height="9" />
+
+	<object label="loveButton" image="../Silver/images/love.png" x="242" y="20"  />
+	<object label="loveButtonOn" image="../Silver/images/love_selected.png" x="242" y="20" />
+</objects>
+</skin>

@@ -1,0 +1,336 @@
+#zina form { display:inline; }
+
+#zina ul, 
+#zina li {
+	background: none;	
+	list-style-type: none;
+	list-style-image: none;
+	padding-left:0;
+	margin-left: 0;
+	line-height:1.8em;
+}
+
+#zina ul.zina-list,
+#zina li.zina-list {
+	background: none;
+	list-style-type: circle;
+	padding-left:.75em;
+	margin-left: .75em;
+}
+
+#zina li {
+	margin-left: 5px;
+}
+
+#zina input,
+#zina select {
+	font-size:9px;
+	font-family: tahoma, arial; 
+	color: black;
+}
+
+#zina select {
+	background-color: #BED4FF;
+}
+
+#zina h1 {
+	font-size: 18px;
+	font-family: Trebuchet MS, Arial;
+	color: #FFFFFF;
+	float:left;
+	margin:0;
+}
+
+#zina .section {
+	float:left;
+	margin-bottom: 15px;
+	width:100%;
+}
+
+#zina .section h3 {
+	font-size: 14px;
+	border-bottom:1px solid #245DC7;
+	margin:0 auto;
+	padding-bottom: 3px;
+}
+
+#zina div.header {
+	width: 100%;
+	float:left;
+	border-bottom:1px solid #245DC7;
+	margin-top:15px;
+}
+#zina div.title-details {
+	float:left;
+	margin-top: 6px;
+	margin-left:10px;
+}
+
+#zina div.header-left {
+	float:left;
+}
+
+#zina div.header-right {
+	float:right;
+	width:210px;
+}
+div.search-form {
+	float:right;
+}
+
+#zina div.header-right input {
+	background-color: #BED4FF;
+}
+
+#zina div.breadcrumb{
+	width:100%;
+	float: left;
+	padding-top:2px;
+}
+
+#zina .search-form {
+	margin-right:10px;
+}
+
+#zina div.breadcrumb-left {
+	float:left;
+}
+#zina div.breadcrumb-right {
+	float:right;
+}
+
+#zina div.content {
+	float:left;
+	margin-top:20px;
+	width:100%;
+}
+
+#zina div.directory_list {
+	float:right;
+	margin-left:10px;
+}
+#zina div.directory-image {
+	float: left;	
+	margin-right: 10px;
+}
+
+#zina img.genre-image,
+#zina .directory-image img,
+#zina .directory-image-full img {
+	border: 1px solid #245DC7;
+}
+
+#zina p.dir-opts {
+	margin-top:0;
+	padding-top:0
+}
+
+.ac_odd,
+#zina .row0 { 
+	background-color:#123980; 
+}
+.ac_even, 
+#zina .row1 { 
+	background-color:#002468; 
+}
+
+#zina .song_blurb0, 
+#zina .song_blurb1 { 
+	font-size: 9px;
+}
+
+#zina .sub-image {
+	border: 1px solid #245DC7;
+}
+
+#zina .cfg-cat { 
+	border-bottom: 2px solid #245DC7;
+	background-color: #123980;
+	color: white;
+	height: 24px;
+}
+
+#zina .cfg-left {
+	float: left;
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#zina .cfg-right {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#zina div.category_pages {
+	text-align: center;
+}
+
+#zina .category_cols { 
+	border-right: 1px dotted #999; 
+}
+
+#zina .category td {
+	font-size: 12px;
+	line-height:1.5;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#zina .small,
+#zina .small a,
+#zina .image-browser {
+	font-size:10px;
+	color: #FFFFFF;
+}
+#zina a:hover {
+	color: #BED4FF;
+}
+
+
+#zina .category_pages,
+#zina .category_pages a,
+#zina .category_pages a:visited {
+	font-size: 14px;
+}
+#zina div.footer {
+	clear: left;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+#zina img.icon {
+	vertical-align: text-bottom;
+	margin: 0px 2px;
+}
+#zina .stars-song {
+	margin-top:3px;
+}
+
+#zina .stars img.icon{
+	margin:0;
+}
+
+#zina .messages {
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#zina .error {
+	font-size: 1.5em;
+	color: #a30000;
+  	background-color: #FFCCCC;
+	border: 1px solid #DD7777;
+}
+#zina .warn {
+	font-size: 1.3em;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+#zina .status {
+	font-size: 1.1em;
+	color: #33a333;
+	border:1px solid #c7f2c8;
+}
+
+#zina div.directory_list div.playlist-form-elements {
+	margin-top:1.5em;
+}
+
+#zina td {
+	line-height:1.5em;
+}
+
+#zina .amg {
+	margin-top:1.5em;
+}
+#zina .amg input {
+	background-color: #BED4FF;
+}
+#zina div.stats {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ccc;
+
+}
+#zina div.stats h3 {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#zina div.section table {
+	float:left;
+}
+#zina div.stats-left {
+	float:left;
+}
+#zina div.stats-right {
+	float:right;
+}
+
+#zina div.genre-page {
+	margin-bottom:10px;
+}
+#zina div.genre-page h3 {
+}
+#zina img.genre-image {
+	margin-right: 10px;
+	float:left;
+}
+
+#zina .image-list-category img.genre-image {
+	float:none;
+}
+
+#zina div.genre-select {
+	float:right;
+}
+
+.ac_over {
+	background-color: #BED4FF;
+	color: black;
+}
+
+.zina-live-search p {
+	margin:0;
+	padding:0;
+}
+
+.zina-live-search img {
+	float:left;
+	width:40px;
+	height:40px;
+	padding-right:5px;
+}
+
+#zina .search-results img {
+	float:left;
+}
+
+#zina .nowrap { white-space: nowrap; }
+#zina .fullwidth {width:100%;}
+#zina .halfwidth {width:50%;}
+#zina .quarterwidth {width:25%;}
+
+h1.zina-cat-letter {
+	color:  #FFFFFF;
+	border-bottom:1px solid;
+	margin:0;
+	padding:0;
+	line-height:1em;
+	width:100%;
+}
+
+a.zina-cat-letter {
+	margin:0;
+	padding:0;
+}
+
+#zina .center {
+	text-align:center;
+}

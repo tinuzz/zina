@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0" xmlns="http://xsml.org/ns/0/">
+<width>254</width>
+<height>540</height>
+<name>Silver - All</name>
+<style>../Silver/style.css</style>
+<images>../Silver/images</images>
+<objects>
+	<object label="background" image="../Silver/images/background_medium.png" />
+
+	<object label="playButton" shape="circle" x="38" y="72" width="23" height="23" alpha="0" />
+	<object label="playButtonOn" shape="circle" x="38" y="72" width="23" height="23" alpha="0" />
+	<object label="playButtonPressed" image="../Silver/images/playPressed.png" x="37" y="71" />
+	<object label="pauseButton" shape="circle" x="63" y="72" width="23" height="23" alpha="0" />
+	<object label="pauseButtonOn" image="../Silver/images/pauseButtonPressed.png" x="62" y="71" />
+	<object label="pauseButtonPressed" image="../Silver/images/pauseButtonPressed.png" x="62" y="71" />
+	<object label="stopButton" shape="circle" x="88" y="72" width="23" height="23" alpha="0" />
+	<object label="stopButtonPressed" image="../Silver/images/stopButtonPressed.png" x="87" y="71" />
+	<object label="prevButton" shape="circle" x="13" y="72" width="23" height="23" alpha="0" />
+	<object label="prevButtonPressed" image="../Silver/images/previousButtonPressed.png" x="12" y="71" />
+	<object label="nextButton" shape="circle" x="113" y="72" width="23" height="23" alpha="0" />
+	<object label="nextButtonPressed" image="../Silver/images/nextButtonPressed.png" x="112" y="71" />
+
+	<object label="shuffleButton"	x="146" y="72" width="29" height="22" alpha="0" hoverMessage="Shuffle" />
+	<object label="shuffleButtonOn" image="../Silver/images/shuffleOn.png" x="146" y="72" hoverMessage="Shuffle" />
+	<object label="shuffleButtonPressed" image="../Silver/images/shufflePressed.png" x="146" y="72" />
+
+	<object label="repeatButton" x="179" y="72" width="29" height="22" alpha="0" hoverMessage="Repeat" />
+	<object label="repeatButtonOn" image="../Silver/images/repeatOn.png" x="179" y="72" hoverMessage="Repeat" />
+	<object label="repeatButtonPressed" image="../Silver/images/repeatPressed.png" x="179" y="72" />
+
+	<object label="playlistButton" x="222" y="46" width="20" height="11" alpha="0" /> 
+	<object label="playlistButtonOn" image="../Silver/images/playlistOn_medium.png" x="222" y="46" /> 
+	<object label="playlistButtonPressed" image="../Silver/images/playlistPressed.png" x="222" y="46" /> 
+
+	<object label="trackDisplay" x="9" y="8" width="238" height="14" size="12" color="000000" font="Arial" />
+	<object label="timeDisplay" x="30" y="27" width="63" height="15" size="18" align="right" font="Courier New, sans-serif" color="737667" hoverMessage="Time Display (Click to toggle elapsed/remaining time)"/> 
+
+	<object label="bitrate" text="=1" x="111" y="24" width="19" height="10" size="9" align="right" font="Geneva, sans-serif" color="737667" /> 
+	<object label="frequency" text="1" x="156" y="24" width="13" height="10" size="9" align="right" font="Geneva, sans-serif" color="737667" /> 
+	<object label="stereo" image="../Silver/images/stereo.png" x="218" y="31" width="30" height="5" /> 
+	<object label="mono" image="../Silver/images/mono.png" x="223" y="31" width="20" height="5" /> 
+
+	<object label="loveButton"   image="../Silver/images/love_medium.png" x="212" y="72" hoverMessage="Love this track" /> 
+	<object label="loveButtonOn" image="../Silver/images/love_medium_selected.png" x="212" y="72" hoverMessage="Love this track" /> 
+
+	<object label="panSlider" x="180" y="49" width="34" height="4" /> 
+	<object label="panHandle" image="../Silver/images/volumeHandle_medium.png" x="180" y="47" width="7" height="7" hoverMessage="Balance"/> 
+
+	<object label="volumeSlider" x="109" y="49" width="62" height="4" />
+	<object label="volumeHandle" image="../Silver/images/volumeHandle_medium.png" x="109" y="47" width="7" height="7" hoverMessage="Volume"/>
+
+	<object label="loadBar" image="../Silver/images/loadBar_medium.png" x="9" y="61" width="236" height="4" />
+
+	<object label="timeSlider" x="9" y="61" width="236" height="6" color="666666"/>  
+	<object label="timeHandle" image="../Silver/images/timeHandle.png" x="9" y="60" width="28" height="6" />  
+		
+	<object label="songInfoBackground" x="0" y="100" width="254" height="100" image="../Silver/images/song_info.png" />
+	<object label="imageDisplay" x="5" y="105" width="90" height="90" />
+	<object label="songInfo" text="1" x="100" y="104" width="148" height="90" font="Verdana, sans-serif" size="12" color="1D5CB1" />
+
+	<object label="playlistBackground" image="../Silver/images/playlist.png" x="0" y="200" width="254" height="170" />
+	<object label="playlistDisplay" x="5" y="205" width="237" height="160" color="000000" selectedColor="1D5CB1" selectedBgColor="1D5CB1" selectedBgTxtColor="ffffff" font="Verdana" size="10" /> 
+
+	<object label="playlistSlider" x="242" y="205" width="7" height="160" color="CCCCCC" alpha="0" />  
+	<object label="playlistHandle" image="../Silver/images/playlistHandle.png" x="242" y="205" width="7" height="18" />  
+
+	<object label="lyricsBackground" image="../Silver/images/playlist.png" x="0" y="370" width="254" height="170" />
+	<object label="lyricsDisplay" x="5" y="375" width="237" height="158" color="000000" selectedColor="1D5CB1" selectedBgColor="1D5CB1" selectedBgTxtColor="ffffff" font="Verdana" size="10" /> 
+	<object label="lyricsSlider" x="242" y="375" width="7" height="160" color="CCCCCC" alpha="0" />  
+	<object label="lyricsHandle" image="../Silver/images/playlistHandle.png" x="242" y="375" width="7" height="18" />  
+</objects>
+</skin>

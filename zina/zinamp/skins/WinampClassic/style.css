@@ -1,0 +1,13 @@
+.title {
+	font-size:11pt;
+	font-weight:bold;
+}
+
+.album,
+.artist {
+	font-size:9pt;
+}
+
+.time {
+	font-size:9pt;
+}

@@ -1,0 +1,29 @@
+/*
+** Table drag and drop.
+*/
+.draggable a.tabledrag-handle {
+  cursor: move;
+  float: left; /* LTR */
+  height: 1.7em;
+  padding: 0.42em; /* LTR */
+  text-decoration: none;
+}
+a.tabledrag-handle:hover {
+  text-decoration: none;
+}
+a.tabledrag-handle .handle {
+  margin-top: 4px;
+  height: 13px;
+  width: 13px;
+  background: url(draggable.png) no-repeat 0 0;
+}
+a.tabledrag-handle-hover .handle {
+  background-position: 0 -20px;
+}
+div.indentation {
+  width: 20px;
+  height: 1.7em;
+  margin: -0.4em 0.2em -0.4em -0.4em; /* LTR */
+  padding: 0.42em 0 0.42em 0.6em; /* LTR */
+  float: left; /* LTR */
+}

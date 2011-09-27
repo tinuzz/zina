@@ -1,0 +1,254 @@
+body {
+	margin:0;
+	padding:0;
+	background: #edf5fa;
+	font: 12px/170% Verdana, sans-serif;
+	color: #494949;
+}
+
+input {
+  font: 12px/100% Verdana, sans-serif;
+  color: #494949;
+}
+
+textarea, select {
+  font: 12px/160% Verdana, sans-serif;
+  color: #494949;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 160%;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+h6 {
+  font-size: 110%;
+}
+
+ul, quote, code, fieldset {
+  margin: .5em 0;
+}
+
+p {
+  margin: 0.6em 0 1.2em;
+  padding: 0;
+}
+
+a:link, a:visited {
+  color: #027AC6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:active, a.active {
+  color: #5895be;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #5294c1;
+}
+
+ul {
+  margin: 0.5em 0 1em;
+  padding: 0;
+}
+
+ol {
+  margin: 0.75em 0 1.25em;
+  padding: 0;
+}
+
+ol li, ul li {
+  margin: 0.4em 0 0.4em .5em; /* LTR */
+}
+
+ol li, ul li {
+  margin: 0.15em 0 0.15em .5em; /* LTR */
+}
+
+ul li {
+  padding: 0 0 .2em 1.5em;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+ol li {
+  padding: 0 0 .3em;
+  margin-left: 2em; /* LTR */
+}
+
+fieldset ul.clear-block li {
+  margin: 0;
+  padding: 0;
+  background-image: none;
+}
+
+dl {
+  margin: 0.5em 0 1em 1.5em; /* LTR */
+}
+
+dl dt {
+}
+
+dl dd {
+  margin: 0 0 .5em 1.5em; /* LTR */
+}
+
+img, a img {
+  border: none;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+
+thead th {
+  border-bottom: 2px solid #d3e7f4;
+  color: #494949;
+  font-weight: bold;
+  text-align:left;
+}
+
+th a:link, th a:visited {
+  color: #6f9dbd;
+}
+
+td, th {
+  padding: .3em .5em;
+}
+
+/**
+ * Layout
+ */
+#header-region {
+  height: 5px;
+  font-size:.3em;
+  background: #d2e6f3 url(images/bg-navigation.png) repeat-x 50% 100%;
+}
+
+#wrapper {
+  background: #edf5fa url(images/body.png) repeat-x 50% 0;
+}
+
+#wrapper #container {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1270px;
+	min-width: 900px;
+}
+
+#wrapper #container #header {
+  height: 40px;
+}
+
+#wrapper #container #header h1, 
+#wrapper #container #header h1 a:link, 
+#wrapper #container #header h1 a:visited {
+  position: relative;
+}
+
+/* We must define 100% width to avoid the body being too narrow for near-empty pages */
+#wrapper #container #center {
+  float: left;
+  width: 100%;
+  background: #fff url(images/bg-content.png) repeat-x 50% 0;
+}
+
+#wrapper #container #center .right-corner {
+  background: transparent url(images/bg-content-right.png) no-repeat 100% 0;
+  position: relative;
+  left: 10px;
+}
+
+#wrapper #container #center .right-corner .left-corner {
+  padding: 50px 25px 10px 35px;
+  background: transparent url(images/bg-content-left.png) no-repeat 0 0;
+  margin-left: -10px;
+  position: relative;
+  left: -10px;
+  min-height: 400px;
+}
+
+#wrapper #container .breadcrumb {
+  position: absolute;
+  top: 15px;
+  left: 35px; /* LTR */
+  z-index: 3;
+}
+
+#wrapper #container .breadcrumb-right {
+  position: absolute;
+  top: 16px;
+  right: 25px; /* LTR */
+  z-index: 4;
+}
+
+#wrapper #container .breadcrumb-right img{
+	margin-left: 5px;
+}
+
+/**
+ * Header
+ */
+#wrapper #container #header h1, 
+#wrapper #container #header h1 a:link, 
+#wrapper #container #header h1 a:visited {
+  color: #fff;
+  font-weight: normal;
+  text-shadow: #1659ac 0px 1px 3px;
+  float:left;
+  margin-top: 14px;
+  left: 25px;
+}
+
+#wrapper #container .breadcrumb, 
+#wrapper #container .breadcrumb a {
+  color: #529ad6;
+}
+
+.header-right {
+	margin-top: 15px;
+	padding-right: 25px;
+	float:right;
+}
+
+.header-right,
+.header-right a,
+.header-right a:link,
+.header-right a:visited {
+	color: #edf5fa;
+}
+
+

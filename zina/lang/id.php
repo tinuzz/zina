@@ -1,0 +1,46 @@
+<?php
+# bahasa Indonesia translation by henky, redaksi@plazaraya.com
+# original code page: "ISO-8859-1";
+$language = 'Indonesia';
+
+$lang['id'] = array(
+	'Artists' => 'Penyanyi',
+	'Albums' => 'Album',
+	'Songs' => 'Lagu',
+	'Song' => 'Lagu',
+	'See Also' => 'Lihat Juga',
+	'Add To' => 'Masukkan ke',
+	'Delete' => 'Hapus',
+	'Home' => 'Depan',
+	'More' => 'Selengkapnya',
+	'Play' => 'Mainkan',
+	'Play Low Fidelity' => 'Mainkan dengan bit rendah',
+	'Playlists' => 'Daftar Lagu',
+	'Playlist' => 'Daftar Lagu',
+	'Search Results' => 'Hasil Pencarian',
+	'Not Found' => 'Tidak Ditemukan',
+	'View/Edit Playlist' => 'Lihat/Edit Daftar Lagu',
+	'Session Playlist' => 'Session Daftar Lagu',
+	'Sorry, there are no playlists.' => 'Maaf, tidak ada daftar lagu.',
+	'New Playlist' => 'Daftar Lagu Baru',
+	'Playlist Name' => 'Nama Daftar Lagu',
+	'Submit' => 'Masukkan',
+	'Random' => 'Acak',
+	'Custom' => 'Kostum',
+	'Rename' => 'Ubah Nama',
+	'All' => 'Seluruhnya',
+	'Selected' => 'Pilih',
+	'None' => 'Tidak ada',
+	'Artist/Title' => 'Artis/Judul',
+	'Cannot rename playlist.' => ' Tidak bisa mengubah daftar lagu.',
+	'Login Incorrect.' => 'Login Salah.',
+	'New' => 'Baru',
+	'Settings' => 'Setting',
+	'At least one song must be selected.' => 'Minimal satu lagu harus dipilih.',
+	'No playlist selected.' => 'Tidak ada daftar lagu yang dipilih.',
+	'Nothing to add to playlist.' => 'Tidak ada yang dimasukkan ke daftar lagu.',
+	'Play Recursively' => 'Mainkan secara  Berulang',
+	'Play Recursively Random' => 'Mainkan Perulangan Secara acak',
+	'Genres' => 'Genre',
+);
+?>

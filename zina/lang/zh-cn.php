@@ -1,0 +1,45 @@
+<?php
+# Simplified Chinese translation by Weiyue Liu (based on Traditional Chinese translation by Shaoling Tsai)
+# original code page: "UTF-8";
+$language = 'Chinese';
+
+$lang['zh-cn'] = array(
+	'Artists' => '演唱者',
+	'Albums' => '专辑',
+	'Songs' => '曲目',
+	'Song' => '曲目',
+	'See Also' => '相关专辑',
+	'Add To' => '加入到',
+	'Delete' => '删除',
+	'Download' => '下载',
+	'Home' => '首页',
+	'More' => '更多',
+	'Play' => '播放',
+	'Play Low Fidelity' => '播放低位元档案',
+	'Playlists' => '播放清单',
+	'Playlist' => '播放清单',
+	'Login' => '登入',
+	'Search Results' => '搜寻结果',
+	'Not Found' => '无任何发现',
+	'View/Edit Playlist' => '观看/编辑播放清单',
+	'Session Playlist' => '阶段播放清单',
+	'Sorry, there are no playlists.' => '抱歉,无任何播放清单',
+	'New Playlist' => '新的播放清单',
+	'Playlist Name' => '播放清单名称',
+	'Submit' => '送出',
+	'Random' => '随选',
+	'Username' => '使用者名称',
+	'Password' => '密码',
+	'Error' => '错误',
+	'Custom' => '自订',
+	'Update' => '更新',
+	'Rename' => '更名',
+	'All' => '全部',
+	'Selected' => '已选',
+	'None' => '无',
+	'Artist/Title' => '演唱者/名称',
+	'Cannot rename playlist.' => '无法更名播放清单',
+	'Check' => '选取',
+	'Login Incorrect.' => '登入错误',
+);
+?>

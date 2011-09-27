@@ -1,0 +1,45 @@
+<?php
+# Zina translation by Atte Hinkka
+# original code page: "ISO-8859-1";
+$language = 'Finnish';
+
+$lang['fi'] = array(
+	'Artists' => 'Esittäjät',
+	'Albums' => 'Levyt',
+	'Songs' => 'Kappaleet',
+	'Song' => 'Kappale',
+	'See Also' => 'Liittyvät levyt',
+	'Add To' => 'Lisää',
+	'Delete' => 'Poista',
+	'Download' => 'Lataa',
+	'Home' => 'Alataso',
+	'More' => 'Lisää',
+	'Play' => 'Soita',
+	'Play Low Fidelity' => 'Soita Lo-Fi',
+	'Playlists' => 'Soittolistat',
+	'Playlist' => 'Soittolista',
+	'Login' => 'Sisäänkirjautuminen',
+	'Search Results' => 'Haun tulokset',
+	'Not Found' => 'Ei löytynyt',
+	'View/Edit Playlist' => 'Tarkastele/muokkaa soittolistaa',
+	'Session Playlist' => 'Tämänkertainen soittolista',
+	'Sorry, there are no playlists.' => 'Ei soittolistoja.',
+	'New Playlist' => 'Uusi soittolista',
+	'Playlist Name' => 'Soittolistan nimi',
+	'Submit' => 'Hae',
+	'Random' => 'Satunnainen',
+	'Username' => 'Käyttäjätunnus',
+	'Password' => 'Salasana',
+	'Error' => 'Virhe',
+	'Custom' => 'Räätälöity',
+	'Update' => 'Päivitä',
+	'Rename' => 'Nimeä uudelleen',
+	'All' => 'Kaikki',
+	'Selected' => 'Valitut',
+	'None' => 'Ei mitään',
+	'Artist/Title' => 'Esittäjä/teos',
+	'Cannot rename playlist.' => 'Soittolistaa ei voi nimetä uudelleen.',
+	'Check' => 'Valitse',
+	'Login Incorrect.' => 'Tunnus tai salasana väärin.',
+);
+?>

@@ -1,0 +1,31 @@
+#
+# Apache/PHP settings:
+#
+
+Options -Indexes
+Options +FollowSymLinks
+
+# Set the default handler.
+DirectoryIndex index.php
+
+# PHP5, Apache 1 and 2
+<IfModule mod_php5.c>
+	php_value magic_quotes_gpc			0
+	php_value register_globals		 	0
+   php_value session.auto_start	 	0
+   php_value memory_limit				128M
+   php_value output_buffering			4096
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # Modify the RewriteBase if you are using zina in a subdirectory and
+  # the rewrite rules are not working properly.
+  #RewriteBase /zina
+
+  # Rewrite current-style URLs of the form 'index.php?p=x'.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  #RewriteCond %{REQUEST_URI} !=/favicon.ico
+  RewriteRule ^(.*)$ index.php?p=$1 [L,QSA]
+</IfModule>

@@ -1,0 +1,45 @@
+<?php
+# Zina Greek translation by Athanasios Kanaris
+# original code page: "ISO-8859-7";
+$language = 'Greek';
+
+$lang['el'] = array(
+	'Artists' => 'Καλλιτέχνες',
+	'Albums' => 'Συλλογές',
+	'Songs' => 'Κομμάτια',
+	'Song' => 'Κομμάτι',
+	'See Also' => 'Σχετικές συλλογές',
+	'Add To' => 'Προσθήκη σε',
+	'Delete' => 'Διαγραφή',
+	'Download' => 'Κατέβασμα',
+	'Home' => 'Αρχική',
+	'More' => 'Περισσότερα',
+	'Play' => 'Αναπαραγωγή',
+	'Play Low Fidelity' => 'Αναπαραγωγή Χαμηλής Ποιότητας',
+	'Playlists' => 'Λίστες',
+	'Playlist' => 'Λίστα',
+	'Login' => 'Είσοδος',
+	'Search Results' => 'Αποτελέσματα αναζήτησης',
+	'Not Found' => 'Δεν Βρέθηκε',
+	'View/Edit Playlist' => 'Προβολή/Αλλαγή Λίστας',
+	'Session Playlist' => 'Λίστες Τρέχουσας Σύνδεσης',
+	'Sorry, there are no playlists.' => 'Λυπόμαστε, δεν υπάρχουν λίστες.',
+	'New Playlist' => 'Νέα Λίστα',
+	'Playlist Name' => 'Όνομα Λίστας',
+	'Submit' => 'Αποστολή',
+	'Random' => 'Τυχαία',
+	'Username' => 'Όνομα (Username)',
+	'Password' => 'Κωδικός (Password)',
+	'Error' => 'Σφάλμα',
+	'Custom' => 'Προσαρμογή',
+	'Update' => 'Ανανέωση',
+	'Rename' => 'Μετονομασία',
+	'All' => 'Όλα',
+	'Selected' => 'Επιλεγμένα',
+	'None' => 'Κανένα',
+	'Artist/Title' => 'Καλλιτέχνης/Τίτλος',
+	'Cannot rename playlist.' => 'Η λίστα δεν μπορεί να μετονομαστεί.',
+	'Check' => 'Έλεγχος',
+	'Login Incorrect.' => 'Λάθος όνομα/κωδικός.',
+);
+?>

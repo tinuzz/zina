@@ -1,0 +1,45 @@
+<?php
+# Zina Kannada Translation by Ananth N. Iyer
+# original code page: "UTF-8";
+$language = 'Kannada';
+
+$lang['kn'] = array(
+	'Artists' => 'ಕಲಾವಿದರು',
+	'Albums' => 'ಚಿತ್ರಗಳು',
+	'Songs' => 'ಹಾಡುಗಳು',
+	'Song' => 'ಹಾಡು',
+	'See Also' => 'ಸಂಬಂದಪಟ್ಟ ಚಿತ್ರಗಳು',
+	'Add To' => 'ಸೇರಿಸು',
+	'Delete' => 'ಅಳಿಸು',
+	'Download' => 'ಇಳಿಸು',
+	'Home' => 'ಮನೆ',
+	'More' => 'ಮತ್ತೆ',
+	'Play' => 'ಕೇಳು',
+	'Play Low Fidelity' => 'ಕಡಿಮೆ ಗುಣದಲ್ಲಿ ಕೇಳು',
+	'Playlists' => 'ಹಾಡು ಪಟ್ಟಿಗಳು',
+	'Playlist' => 'ಹಾಡು ಪಟ್ಟಿ',
+	'Login' => 'ಒಳಗೆ ನಡೆ',
+	'Search Results' => 'ಹುಡುಕಿನ ಫಲಿತಾಂಶ',
+	'Not Found' => 'ಸಿಗ್ಲಿಲ್ಲ',
+	'View/Edit Playlist' => 'ಹಾಡು ಪಟ್ಟಿಯನ್ನ ನೋಡು/ಸಂಪಾದಿಸು',
+	'Session Playlist' => 'ಇ ಸಭೆಯ ಹಾಡು ಪಟ್ಟಿ',
+	'Sorry, there are no playlists.' => 'ಕ್ಶಮಿಸಿ, ಯಾವ ಹಾಡು ಪಟ್ಟಿಗಳು ಇಲ್ಲ',
+	'New Playlist' => 'ಹಾಡುಪಟ್ಟಿ ರಚಿಸು',
+	'Playlist Name' => 'ಹಾಡು ಪಟ್ಟಿಯ ಹೆಸರು',
+	'Submit' => 'ಸಲ್ಲಿಸು',
+	'Random' => 'ಗುರಿಇಲ್ಲದೆ',
+	'Username' => 'ಉಪಯೋಗಿಸುವ ಹೆಸರು',
+	'Password' => 'ಗುರುತುನುಡಿ',
+	'Error' => 'ತಪ್ಪು',
+	'Custom' => 'ಸ್ವತಹ ರಚನೆ',
+	'Update' => 'ನವೀನ',
+	'Rename' => 'ಹೆಸರು ಬದಲಾಯಿಸು',
+	'All' => 'ಎಲ್ಲ',
+	'Selected' => 'ಆರಿಸಿದನ್ನು',
+	'None' => 'ಏನು ಇಲ್ಲ',
+	'Artist/Title' => 'ಕಲಾವಿದ/ಶೀರ್ಶಿಕೆ',
+	'Cannot rename playlist.' => 'ಹೆಸರು ಬದಲಾಯಿಸಲ ಆಗಲ್ಲ.',
+	'Check' => 'ಸೆರಿಯಾಗಿ ನೊಡಿ',
+	'Login Incorrect.' => 'ತಪ್ಪು ಹೆಸರು/ಗುರುತುನುಡಿ',
+);
+?>

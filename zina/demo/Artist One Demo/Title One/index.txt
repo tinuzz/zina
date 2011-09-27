@@ -1,0 +1,9 @@
+Title One is really, really great.
+
+This is a blurb for title one.  
+
+It is read from a text file that must be named as set in "Settings."  By default "index.txt".
+
+The image is read from the directory.  It can be named anything.
+
+

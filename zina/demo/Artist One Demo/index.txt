@@ -1,0 +1,11 @@
+Artist One is really great.  They rock my world.  Check them <b>out</b>!
+
+This is a blurb for artist one.
+
+It is read from a text file that must be named as set in "Settings."  By default "index.txt".
+
+The image is read from the directory.  It can be named anything.
+
+You may delete this file/folder/etc.  
+
+

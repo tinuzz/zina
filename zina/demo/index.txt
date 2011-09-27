@@ -1,0 +1,11 @@
+If all is well, you should see the test directory below.  
+
+If things seem to be working, click on the "Login" icon.  The username is "admin" and the password is "password".   
+
+You should click on the "Settings" icon and immediately change these. 
+
+This text is read from a text file that must be named as set by in "Settings."  By default "index.txt".
+
+A file call "zina_category" makes this directory a "category" listing.  You can delete that file and it will be treated like a normal directory.  You may also add it to any directory to do the reverse.
+
+You may <b>delete</b> this file/folder or modify it to your hearts content.  You should also delete Artist One.  Both are for demonstration purposes.
