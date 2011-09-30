@@ -1432,6 +1432,7 @@ function zdb_log_stat($type, $path, $file = null, $rating = null, $regen = false
 				$update['genre'] = array("'%s'" => $mp3->genre);
 
 				if ($mp3->tag) {
+					/*
 					if ($i > 0 && isset($mp3->album)) {
 					  	$title =	trim($mp3->album);
 						if (!empty($title)) {
@@ -1440,6 +1441,7 @@ function zdb_log_stat($type, $path, $file = null, $rating = null, $regen = false
 							$update['title'] = array("'%s'" => $title);
 						}
 					}
+					*/
 					if (isset($mp3->year) && !empty($mp3->year)) {
 						$info['year'] = '%d';
 						$values[] = $year = $mp3->year;
