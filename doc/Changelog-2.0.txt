@@ -1,0 +1,272 @@
+v2.0b22 (2010 June 15)
+
+    NEW: Can now make some directory options via interface instead of actual file
+    NEW: Can rename directories on writeable filesystems
+    NEW: Performance tweaks
+    NEW: Can return regular rss feeds instead of podcasts
+    BUG: If using directory names from tags, will now use those to sort on
+    BUG: Couldn't turn off all random options
+    BUG-IE: Tag Editor greyed out fields weren't apparent
+    BUG-CROME: Scrollbars would appear on flash player pop-up
+    BUG: A few minor others
+
+v2.0b21 (2010 June 2)
+
+    NEW-CMSes: Option to assign permissions or allow "Editors" the ability to edit certain textual aspects of Zina (e.g. descriptions)
+    NEW: Tag Editor option to skip errors and write tags anyway.
+    BUG: Tag Editor wouldn't always merge existing tags
+    BUG-Joomla: Zina submenus like Genres, Playlists, Statistics could disappear and not be easily recreated
+
+v2.0b20 (2010 May 27)
+
+    NEW: Title Case Option in Tag Editor
+    NEW: Option to extract images from ID3 tags
+    NEW: Will use lyrics if in ID3 tags
+    NEW: Option to use Album names from ID3 tags
+    UPDATED: German language file
+    BUG[2848867]: Foreign characters near truncation
+    BUG[1878728]: Statistics not updated on download album/selected
+    BUG: PNG image resizing could fail
+    BUG: Some strings not translatable
+    BUG: Will use song titles from ID3 tags in stats
+    BUGs: Tag editor (multiple issues)
+    BUG-DRUPAL: Add taxonomy dependency
+    BUG-WP: Zina could screw-up other pages page titles
+
+v2.0b19 (2010 May 16)
+    NEW: Database search will search artist-title if directory is flagged "various"
+    NEW: Can delete files/directories (on writeable filesystems)
+    NEW: Genre pages will respect genre hierarchy (if applicable)
+    UPDATED: German language file
+    BUG: Potential better language support
+    BUG: Cron bug
+    BUG: A few other ones
+
+v2.0b18 (2010 May 7)
+    NEW: Tag editor with cddb lookup (if on writeable filesystem)
+    NEW: Minor tweaks to genre/year search
+    BUG: IE play selected bombed on lots selected
+    BUG: IE and flash player didn't always start on first click
+
+v2.0b17 (2010 May 1)
+    NEW: Podcast feeds for playlists
+    BUG: Play by year requires certain options
+    BUG: PHP5.3 renamed an option (JPG->JPEG)
+
+v2.0b16 (2010 Apr 28)
+
+If using playlists and a database, you will need to import your playlists from Zina's Settings page
+    NEW: Playlist display/aesthetic changes (if using a database)
+    NEW: Optional playlist statistics
+    NEW: Play by year
+    NEW-CMSes: Users can now optionally create their own saved playlists
+    NEW-CMSes: Playlist statistics block
+    BUG-WP: Zina should now honor Wordpress password protection.
+    BUG-JOOMLA: A language file and lyric source file were missing
+
+v2.0b15 (2010 Apr 8)
+    REGRESSION/FIX: Possible apostrophe problems in file names
+    NEW/FIX: New lyric source, removed one old, fixed one.
+    FIX: A few flash player performance fixes.
+    FIX: Session playlists were wonky
+    NEW: Pop-up flash player should get focus
+    NEW: Opt to sort files by ID3 track number
+    NEW-LANG: Belorussian translation by M.Comfi
+    UPDATED-LANG: Russian, German
+
+v2.0b14 (2009 Aug 19)
+
+WARNING: Joomla and Drupal users will need to resynch their databases and possible remove a stray menu item when upgrading to this release.
+    NEW/BUG: Language stuff
+    NEW-JOOMLA: Better integration (each directory an article).
+    NEW-DRUPAL: Better integration (each directory a node).
+    FIX: Should play nice with mootools and other JS libraries
+    NEW: Edit root directory text.
+    NEW: More lyric sources
+    FIX: Amazon images now require an amazon developer account (per amazon)
+    Other things...
+
+v2.0b13 (2009 Jun 8)
+    BUG: Google album/artist images was broken
+    BUG: Saving settings in CMSes may throw PHP notice errors
+    NEW: Ability to override settings on a directory by directory basis
+    NEW: Help/Support page for diagnosing common Zina setup issues
+
+v2.0b12 (2009 May 18)
+    BUG: More Podcast/RSS fixes
+    NEW: Option to bias random song playlists towards unplayed songs
+    NEW: Full page category view split alphabetically
+    NEW: Option to include other files (e.g. PDFs) in podcasts
+    NEW: Option to expand "various" directories in category pages
+
+v2.0b11 (2009 May 3)
+    BUG: sitemap didn't verify (non-Drupal)
+    NEW: Optional addthis.com "Share" & "Feeds" buttons
+    NEW/FIX: Improved RSS/Podcast feed handling
+    NEW: Images in RSS Stat feeds
+
+v2.0b10 (2009 Apr 24)
+    BUG: Couldn't always download files
+    BUG: Couldn't play songs from playlist view
+    BUG-CMSes: Couldn't create playlists if not using clean urls
+    BUG-JOOMLA: Blank page if too many songs
+    BUG: Two PHP E_STRICT errors
+    NEW: Option to set timezone
+
+v2.0b9 (2009 Apr 3)
+    BUG: Hardcoded table name in stats regeneration code
+    BUG: Category ignore sort option didn't work on subdirs
+    BUG-CMSes: Lyric and album image opts not shown in settings
+
+v2.0b8 (2009 Mar 22)
+    NEW: Option to set disposition of Other Media Files
+    NEW: Larger Flash player "Silver" skins
+    NEW-WP: Uninstall for WP 2.7
+    BUG: MP3 File Info not found on 64bit systems
+    BUG: Disabling the search box disabled the Flash player
+    BUG-CMSes: Adding files to playlists broken
+    BUG-WP: Hopefully, Zina won't take over front page on bad activation
+
+v2.0b7 (2009 Mar 15)
+    NEW: Option to display lyrics in Flash player
+    NEW: Random Block
+    NEW: Option to save lyrics locally
+    NEW: Option to override locale setting
+    NEW: More complete Brazilian translation
+    BUG: Sub-dir image options were being ignored
+    BUG: Use local paths option was broken
+    BUG: Time based functionality was broken
+    BUG: Typo in time based functionality example
+    BUG: Flash player not in sockCrystal theme
+
+v2.0b6 (2009 Feb 17)
+    BUG: Badly named Lyric variable caused problems on some set-ups
+
+v2.0b5 (2009 Feb 16)
+    NEW: Option to find/display lyrics from external sites
+    NEW: Option to find artist/album art from external sites
+    NEW-CMSes: Option to display images in statistic blocks
+    BUG: Flash player pop-up wouldn't start playing on first pop-up in non-Firefox browsers
+    BUG: "Selected" Zip downloads would be sent to Flash player
+    BUG: Album zip downloads would have a .lp appended
+    BUG: Inline Flash player would be cut-off in IE
+
+v2.0b4 (2009 Feb 9)
+    BUG: Flash player had to load song before advancing
+    NEW: Korean translation
+    NEW: Option to set default directory sort order
+    NEW: Won't try to clean up song titles from ID3 tags (can still override via theme functions)
+
+v2.0b3 (2009 Feb 8)
+    NEW: Flash player
+    NEW: Read WMA & M4A tags
+    NEW: Can optionally return playlists in xspf format
+    BUG: Remote file plays will be logged in stats
+    BUG: Some character problems may have been fixed
+    BUG: Some RSS feed issues may have been fixed
+
+v2.0b2 (2009 Jan 11)
+    BUG: Streaming wma/ogg to Winamp with non-clean urls was broke
+    BUG[2494622]: missing genre property
+    BUG[2494617]: Index_rel
+    BUG[2494611]: Other media types query parameter check
+    BUG: Genres array_diff missing argument
+    BUG-Wordpress: Can change permalink
+    BUG-Drupal: Non-clean urls was broke
+    BUG-Joomla: Joomla search link was broke
+
+v2.0b1 (2008 Dec 9)
+    NEW: Sort options on search results
+    BUG: Minor bug fixes
+
+v2.0a12 (2008 Dec 4)
+    NEW: mysqli support
+    NEW: XHTML 1.0 Strict output
+    BUG: "Use local paths" wouldn't
+    BUG: Minor bug fixes
+
+v2.0a11 (2008 Nov 28)
+    NEW: More information on search page (when using database)
+    NEW: More flexible file directory transversal protection
+    NEW: Genre descriptions
+    NEW: Play "selected" random
+    BUG: Wrong "Context" for non-database Live Search results
+    BUG: Cron would update search index on every run
+    BUG: Minor bug fixes
+
+v2.0a10 (2008 Nov 23)
+    NEW: Live Search
+    NEW: Improved Search
+    BUG: Minor bug fixes
+
+v2.0a9 (2008 Nov 15)
+    NEW: Clean urls should work with IIS & ISAPI Rewrite
+    NEW: Optional/configable genre hierarchy for random playlists via genres
+    NEW-CMSes: Settings will now be stored in the database
+    NEW-CMSes: Zina's db should be automatically installed/updated/uninstalled per CMS's native mechanisms (if they exist)
+    NEW: Option to use ID3 tags in blocks
+    BUG-Wordpress: Couldn't override block theme
+    BUG: Might not have been able to rename playlists
+    BUG: Utilizing "Other media types" caused a problem
+
+v2.0a8 (2008 Nov 5)
+    NEW-Drupal: Sitemap integration with XML Sitemap module
+    NEW-CMSes: Will now use CMS database for easier installation
+    UPDATE: Albanian translation
+    FIX: Genre text link in image view
+    FIX: Genre lookahead on artist page was broke
+    FIX: Fake songs included in Podcasts
+    FIX-Drupal: Block links might have been broken
+    FIX-Xoops: Using Blocks might have caused links to be screwy
+
+v2.0a7 (2008 Oct 26)
+    FIX: Running PHP under CGI should work
+    FIX: Playlist sorting will honor song sorting
+    FIX: RSS returned bad XML under certain conditions
+    FIX-REGRESSION: Not finding some genres
+
+v2.0a6 (2008 Oct 22)
+    NEW: "Recently Added" Statistic
+    NEW: Option to have image captions
+    NEW-JOOMLA: Integrated component/module/plugin file with auto upgrade (hopefully)
+    FIX: Hopefully, IIS Support will be complete.
+    BUG: Minor bug fixes
+
+v2.0a5 (2008 Oct 17)
+    NEW: Option to show artist images in category view
+    NEW: Category view configurable on a per directory basis
+    NEW: Optional genre images
+    NEW: Options to sort files by date
+    FIX-JOOMLA: Better admin page integration
+    FIX: Alphabetic category page splits didn't work on subdirectories
+    FIX: Hopefully, better IIS support
+
+v2.0a4 (2008 Oct 10)
+    NEW: Twitter.com support
+    BUG: Introduced a bug with this mornings release.
+
+v2.0a3 (2008 Oct 10)
+    NEW: Statistics blocks for modules
+    NEW: Statistics RSS feeds
+    BUG: Minor bug fixes
+
+v2.0a2 (2008 Oct 5)
+    NEW: Joomla 1.5 component
+    NEW: Wordpress 2.6 plugin
+    NEW: Xoops 2.3 module
+    BUG: Genres not sorted
+    BUG: Minor bug fixes
+
+v2.0a1 (2008 Sept 27)
+    NEW: Pure PHP templating system.
+    NEW: Clean URL support.
+    NEW: Better integration with CMSes.
+    NEW: Sitemap generation
+    NEW: last.fm integration
+    NEW: Language system
+    NEW: Logged in users can change their votes
+    NEW: Categories can be split alphabetically
+    NEW: Better RSS/Sitemap support
+    NEW: Can now stay logged in
+    NEW: Lots of other small things...
+    NEW: Tons of code clean-up
