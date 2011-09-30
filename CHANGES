@@ -5,11 +5,11 @@
     the name of the artist would be lost, which I consider confusing and ugly.
     The code that is responsible for this fetch is now commented out, so that
     new directories are always added to the database by their full name.
-  - Made all files non-executable
+  - Made all files non-executable.
 
 * Tue, Sep 27 2011:
-  - Imported Zina version 2.0b22
+  - Imported Zina version 2.0b22.
   - Fix a bug where the existing playlist of the flash player (Zinamp) would be
     deleted upon adding a new song. See
     http://sourceforge.net/projects/zina/forums/forum/281819/topic/4584404
-    for more information
+    for more information.
