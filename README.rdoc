@@ -1,0 +1,41 @@
+= Zina is not Andromeda
+
+This is a fork of 'Zina', originally written by Ryan Lathouwers. See
+http://www.pancake.org/zina/ for the original website.
+
+According to the original site, Ryan abandonned Zina in November 2010. This
+fork is based on the latest release, 2.0beta22, released on 2010-06-15.
+
+Zina is a graphical interface to your MP3 collection, a personal jukebox, an
+MP3 streamer. It can run on its own, embeded into an existing website, or as a
+Drupal module, Wordpress plug-in and Joomla component. It is released under the
+GNU General Public License v2.
+
+== Features
+
+The following list was copied from the original website:
+
+* MP3 / OGG / WAV / WMA /M4A streaming
+* Playlists: Custom, "session", random, genre and more
+* Can run by itself, embedded into a website or as a Drupal module, Wordpress
+  plugin, Joomla component.
+* RSS, Podcasts and sitemap generation
+* Flash player for mp3s (skin-able)
+* Live search
+* Clean URL support
+* Can help find album covers and lyrics from the internet
+* Tag editor with CDDB lookup
+* Can downsample mp3s on the fly (with external encoder like LAME)
+* Can dynamically resize images
+* Last.fm and Twitter.com integration
+* Pure PHP templating system
+* Valid XHTML 1.0 Strict output
+* Simple Installation (database is optional)
+* Easy to configure (uses regular text and graphic files for many customization)
+* Many other features Localization support: English, German,
+  Dutch, Spanish, Italian, Traditional & Simplified Chinese, French, Danish,
+  Bulgarian, Croation, Hebrew, Basque, Russian, Norwegian, Turkish, Swedish,
+  Slovakian, Hungarian, Catalan, Brazilian, Albanian, Romanian, Finnish, Greek,
+  Kannada, Bahasa Indonesia, Japanese, Malay, Portuguese, Estonian, Slovenian,
+  Polish, Korean, Belorussian.
+* Released under GNU General Public License v2

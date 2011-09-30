@@ -8,6 +8,7 @@
   - Made all files non-executable.
   - Added a 'doc' directory, containing just the old changelog from
     http://www.pancake.org/zina/changelog/2 for now
+  - Add a README.rdoc file, containing some basic information
 
 * Tue, Sep 27 2011:
   - Imported Zina version 2.0b22.
