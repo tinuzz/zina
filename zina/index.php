@@ -5647,7 +5647,7 @@ function zina_get_playlist($songs, $low, $c_pls = false) {
 					$playlist .= zina_get_title_playlist($song, $zc['honor_custom'], $low);
 				} elseif (preg_match('/\.pls/i', $song)) {
 					$song = preg_replace('/\.pls/i', '', $song);
-					if (in_array($song, $pls_ids)) continue '';
+					if (in_array($song, $pls_ids)) continue;
 					$pls_ids[] = $song;
 					$playlist .= zina_get_playlist(zina_get_playlist_custom($song, $zc['honor_custom'], $low), $low);
 				} else {
@@ -5662,7 +5662,7 @@ function zina_get_playlist($songs, $low, $c_pls = false) {
 					$playlist .= zina_get_title_playlist($song, $zc['honor_custom'], $low);
 				} elseif (preg_match('/\.pls$/i', $song)) {
 					$song = preg_replace('/\.pls/i', '', $song);
-					if (in_array($song, $pls_ids)) continue '';
+					if (in_array($song, $pls_ids)) continue;
 					$pls_ids[] = $song;
 					$playlist .= zina_get_playlist(zina_get_playlist_custom($song, $zc['honor_custom'], $low), $low);
 				} elseif ($zc['remote'] && preg_match('/\.('.$zc['remote_ext'].')$/i', $song)) {
